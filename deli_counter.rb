@@ -20,7 +20,7 @@ def take_a_number(katz_deli,name)
   greeting = ""
     if katz_deli.count >= 1
       katz_deli.each_with_index do |name,index|
-      puts greeting + "Welcome, #{name}. You are number #{index +1} in line."
+       greeting + "Welcome, #{name}. You are number #{index +1} in line."
     end
   puts greeting
   end
