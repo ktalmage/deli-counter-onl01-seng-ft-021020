@@ -15,15 +15,15 @@ end
 
 def take_a_number(katz_deli,name)
   katz_deli.push(name)
-  position = array.index(name)
-  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+  position = katz_deli.index(name)
+  puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
   return name, position 
 end 
     
-def now_serving(array)
-  if array.empty? == true 
+def now_serving(katz_deli)
+  if katz_deli.empty? == true 
     puts "There is nobody waiting to be served!"
-  elsif array.empty? == false 
-    puts "Currently serving #{array.shift}."
+  elsif katz_deli.empty? == false 
+    puts "Currently serving #{katz_deli.shift}."
   end 
 end 
