@@ -15,9 +15,8 @@ end
 
 def take_a_number(katz_deli,name)
   katz_deli.push(name)
-      katz_deli.each_with_index do |name,index|
-       
-    end
-   greeting
-  end
-end
+  position = array.index(name)
+  puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+  return name, position 
+end 
+    
