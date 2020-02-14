@@ -28,14 +28,14 @@ end
  
  
     
-def now_serving(katz_deli)
-  serving = ""
-    if katz_deli.count >= 1
-    katz_deli.each do |name| 
-    puts serving + "Currently serving #{name}."
-  else
-end
-puts serving
-end
-end
+# def now_serving(katz_deli)
+#   serving = ""
+#     if katz_deli.count >= 1
+#     katz_deli.each do |name| 
+#     puts serving + "Currently serving #{name}."
+#   else
+# end
+# puts serving
+# end
+# end
   
